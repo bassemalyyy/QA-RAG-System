@@ -6,7 +6,10 @@ This project allows you to upload documents (PDF or TXT), automatically process 
 
 The system uses **document loaders (Docling/TextLoader)** to handle different file formats, **recursive chunking** for splitting large documents, and **FAISS** for efficient similarity search. By combining these with **Google Generative AI embeddings**, it creates a powerful local knowledge base you can query in natural language.
 
-* * * * *
+🌐 Live Demo
+----------
+
+[Give it a try here!](https://docs-rag-system.streamlit.app/)
 
 ✨ Features
 ----------
@@ -21,22 +24,18 @@ The system uses **document loaders (Docling/TextLoader)** to handle different fi
 
 -   🚀 Simple, interactive **Streamlit web interface**
 
-* * * * *
-
 📦 Tech Stack
 -------------
 
--   Streamlit -- Web interface
+-   [Streamlit](https://streamlit.io/) -- Web interface
 
--   LangChain -- Document loaders, chunking, retriever
+-   [LangChain](https://www.langchain.com/) -- Document loaders, chunking, retriever
 
 -   [FAISS](https://github.com/facebookresearch/faiss) -- Vector store for embeddings
 
--   Google Generative AI -- Embedding model
+-   [Google Generative AI](https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings) -- Embedding model
 
 -   [Hugging Face](https://huggingface.co/) -- Used for gated model access in Docling
-
-* * * * *
 
 ⚡ Installation
 --------------
@@ -57,8 +56,6 @@ myenv\Scripts\activate     # (Windows)
 pip install -r requirements.txt
 ```
 
-* * * * *
-
 🔑 Environment Variables
 ------------------------
 
@@ -67,8 +64,6 @@ Create a `.env` file in the project root and add your API keys:
 GOOGLE_API_KEY=your_google_gemini_api_key
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_key
 ```
-
-* * * * *
 
 ▶️ Usage
 --------
@@ -87,17 +82,6 @@ Steps inside the app:
 
 4.  Start asking questions in natural language.
 
-* * * * *
-
-📸 Screenshots
---------------
-
-*Upload Document & Process*
-
-*Ask Questions from Processed Document*
-
-* * * * *
-
 🚧 Known Issues
 ---------------
 
@@ -105,14 +89,10 @@ Steps inside the app:
 
 -   Requires both **Google API Key** and **Hugging Face API Key** for full functionality.
 
-* * * * *
-
 🤝 Contributing
 ---------------
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
-
-* * * * *
 
 📜 License
 ----------
