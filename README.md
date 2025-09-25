@@ -82,6 +82,28 @@ Steps inside the app:
 
 4.  Start asking questions in natural language.
 
+🐳 Docker Support
+----------------
+
+This project includes a `Dockerfile`, `.dockerignore`, and `docker-compose.yml` for easy containerization.
+
+### Build the Docker image:
+```bash
+docker build -t rag-qa-system
+```
+
+### Run the container locally:
+```bash
+docker run -p 8501:8501 rag-qa-system
+```
+
+### Or use Docker Compose:
+```bash
+docker-compose up --build
+```
+
+Now open <http://localhost:8501> in your browser.
+
 🚧 Known Issues
 ---------------
 
