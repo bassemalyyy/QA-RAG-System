@@ -89,7 +89,7 @@ This project includes a `Dockerfile`, `.dockerignore`, and `docker-compose.yml` 
 
 ### Build the Docker image:
 ```bash
-docker build -t rag-qa-system
+docker build -t rag-qa-system .
 ```
 
 ### Run the container locally:
