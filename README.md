@@ -11,6 +11,11 @@ The system uses **document loaders (Docling/TextLoader)** to handle different fi
 
 [Give it a try here!](https://docs-rag-system.streamlit.app/)
 
+🎥 Video Demo
+-------------
+
+https://github.com/user-attachments/assets/80c2d3f0-4207-4699-a4c0-2e424fc14202
+
 ✨ Features
 ----------
 
